@@ -1,0 +1,9 @@
+Flask==2.0.1
+pymongo==3.11.4
+pycryptodome==3.10.1
+opencv-python==4.5.3.56
+pyaudio==0.2.11
+SpeechRecognition==3.8.1
+cryptography==3.4.8
+numpy==1.21.2
+scikit-learn==0.24.2

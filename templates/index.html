@@ -1,0 +1,12 @@
+<!-- templates/index.html -->
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <h1 class="mt-5">Welcome</h1>
+    <div class="mt-5">
+        <a href="{{ url_for('store') }}" class="btn btn-primary">Registeration</a>
+        <a href="{{ url_for('recognize') }}" class="btn btn-secondary">Login</a>
+    </div>
+{% endblock %}

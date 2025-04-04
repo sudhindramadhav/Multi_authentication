@@ -1,0 +1,11 @@
+<!-- templates/welcome.html -->
+{% extends "base.html" %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block content %}
+    <h1 class="mt-5">Welcome</h1>
+    <p><strong>{{ name }}</strong></p>
+    <p>Roll number : <strong>{{ rollno }}</strong>.</p>
+    <p>Your user ID is <strong>{{ user_id }}</strong>.</p>
+{% endblock %}
